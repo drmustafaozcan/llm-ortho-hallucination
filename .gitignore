@@ -1,0 +1,34 @@
+# API keys and secrets — NEVER commit
+.env
+*.env
+.env.local
+
+# Data folders (data is on OSF, not GitHub)
+data/
+results/
+raw_outputs/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# Backup files
+*.bak
+*.backup
